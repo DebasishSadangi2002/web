@@ -1,0 +1,71 @@
+body {
+    background-color: hsl(212, 45%, 89%); 
+}
+/* styles.css */
+.container {
+    width: 400px; /* Set the width of the box */
+    height: 600px; /* Set the height of the box */
+    background-color: #f2f2f2; /* Set the background color of the box */
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 3%;
+}
+.custom-image{
+    width : 380px;
+    height: 380px;
+    /*background-color: blue;*/
+    position: absolute;
+    top: 34%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 3%;
+
+}
+/* Body Copy */
+
+
+/* Font Family - Outfit */
+body {
+    font-family: 'Outfit', sans-serif;
+    /* Make sure to link the Outfit font in your HTML file */
+}
+
+/* Font Weights */
+/* For regular text */
+.normal-weight {
+    font-weight: 400;
+    font-size: 15px;
+}
+
+/* For bold text */
+.bold-weight {
+    font-weight: 700;
+    font-size: 30px;
+}
+.image-caption {
+    text-align: center; /* Center the text */
+    margin-top: 400px; /* Add some space between the image and text 
+    font-size: 16px; /* Set the font size */
+}
+@media (max-width: 375px) {
+    body {
+        font-size: 16px; /* Adjust as needed for mobile */
+    }
+
+    nav li {
+        margin: 0 5px; /* Adjust spacing for mobile */
+    }
+
+    main {
+        padding: 10px; /* Adjust spacing for mobile */
+    }
+}
+
+/* Media Queries for Desktop View (from 376px to 1440px) */
+@media (min-width: 376px) and (max-width: 1440px) {
+    nav li {
+        margin: 0 15px; /* Adjust spacing for desktop */
+    }
+}
